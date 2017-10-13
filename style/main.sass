@@ -1,0 +1,194 @@
+$blue: #3498db
+$green: #27ae60
+$purple: #9b59b6
+$grey: #2c3e50
+$bg-col: #ecf0f1
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0
+  padding: 0
+  font-size: 16px
+  line-height: 1.75
+  font-family: Raleway, sans-serif
+  background-color: $bg-col
+  text-transform: uppercase
+header
+  padding-top: 20px
+  h2
+    text-align: center
+    font-size: 40px
+    font-weight: 500
+  p
+    font-weight: 400
+    max-width: 750px
+    margin: 0 auto
+    padding-bottom: 20px
+a, a:hover, a:focus
+  cursor: pointer
+  color: #ffffff
+  text-decoration: none
+.button
+  cursor: pointer
+  display: inline-block
+  border-radius: 50px
+  background: $blue
+  padding: 25px 80px
+  margin: 70px
+  font-size: 20px
+  font-weight: 700
+  color: #ffffff
+  transition: background 0.5s ease
+  &:hover
+     background: lighten($blue, 10%)
+  &:active
+    background: darken($blue, 10%)
+.overflow
+  overflow: hidden
+.wrapper-section
+  padding: 50px 0
+  width: 1170px
+  margin: 0 auto
+  text-align: center
+/*====================WELCOME-SECTION==================*/
+.logo
+  float: left
+.welcome-section
+  background: $blue
+  color: #ecf0f1
+  .menu
+    cursor: pointer
+    border: 0
+    height: 30px
+    width: 40px
+    background: url("../img/burger.png") no-repeat
+    float: right
+  .welcome
+    padding: 160px 0 250px 0
+    h1
+      font-size: 60px
+      margin-top: 0
+    h2
+      font-size: 86px
+      margin-bottom: 0
+/*====================ABOUT-SECTION==================*/
+.about-section
+  color: #000
+  .info-card
+    margin-top: -300px
+.info-card
+  border-radius: 15px
+  border: 1px #d0d4d4 solid
+  background: #fff
+  color: $grey
+  h2
+    font-weight: 300
+    font-size: 40px
+    padding-top: 15px
+    margin-bottom: 10px
+  .cross
+    display: inline-block
+    width: 35px
+    height: 35px
+    background: url("../img/cross.png") no-repeat
+    margin-bottom: 20px
+  p
+    font-weight: 500
+    max-width: 750px
+    margin: 0 auto
+.image-list
+  text-align: center
+  padding-top: 30px
+  padding-bottom: 60px
+  ul
+    padding: 0
+    li
+      margin: 0 30px
+      color: $grey
+      display: inline-block
+      width: 280px
+      .wrapper-img
+        overflow: hidden
+        width: 250px
+        height: 250px
+        margin: 0 auto
+        border-radius: 50%
+      span
+        font-size: 20px
+        font-weight: 700
+/*====================PROJECT-SECTION==================*/
+.projects-section
+  background: $green
+  color: #ecf0f1
+  padding-bottom: 80px
+  .slider
+    text-align: center
+    width: 90%
+    margin: 20px auto
+    max-width: 1600px
+    img
+      width: 100%
+/*====================ADDITIONAL-SECTION==================*/
+.additional-section
+  color: $grey
+  ul
+    padding-top: 30px
+    margin-bottom: -400px
+    .info-additional
+      display: inline-block
+      width: 530px
+      margin: 0 15px
+      p
+        margin: 0 30px
+/*====================CLIENTS-SECTION==================*/
+.clients-section
+  background-color: $purple
+  color: #ecf0f1
+  padding-top: 300px
+.clients-list
+  li
+    margin: 0 10px
+    display: inline-block
+    vertical-align: middle
+    width: 250px
+/*====================TEAM-SECTION==================*/
+.team-section
+  color: $grey
+  .image-list
+    padding-top: 0
+    p
+      text-transform: none
+      font-weight: 500
+    .social
+      li
+        margin: 0 10px
+        width: auto
+.facebook-social, .google-social, .twitter-social
+  overflow: hidden
+  text-align: left
+  display: inline-block
+  background: url("../img/social-sprite.png") no-repeat
+.facebook-social
+  background-position: 0 0
+  width: 34px
+  height: 34px
+.google-social
+  background-position: 0 -34px
+  width: 34px
+  height: 34px
+.twitter-social
+  background-position: 0 -68px
+  width: 34px
+  height: 34px
+/*====================TEAM-SECTION==================*/
+footer
+  padding-top: 15px
+  background: $grey
+  color: #ecf0f1
+  nav
+    float: right
+    li
+      margin: 0 15px
+      display: inline-block
